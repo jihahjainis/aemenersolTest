@@ -1,0 +1,42 @@
+.card-box {
+    border-radius: 6px;
+    border-color: rgb(61, 59, 59);
+    border-width: 1px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    float: none;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.dashboard-header {
+    background-color: black;
+    color: beige; 
+    height: 50px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.body-div {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+table {
+    counter-reset: row-num -1;
+}
+table tr {
+    counter-increment: row-num;
+}
+table tr td:first-child::before {
+    content: counter(row-num);
+}

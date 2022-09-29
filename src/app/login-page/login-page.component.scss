@@ -1,0 +1,18 @@
+.card-box {
+    margin: 120px auto 0;
+    border-radius: 6px;
+    border-color: rgb(61, 59, 59);
+    border-width: 1px;
+    box-sizing: border-box;
+    width: 400px;
+    float: none;
+}
+
+.form-group {
+    .input-group-text {
+        background: none;
+        padding: 6px 10px 6px 15px;
+        text-align: left;
+        width: 100%;
+    }
+}
